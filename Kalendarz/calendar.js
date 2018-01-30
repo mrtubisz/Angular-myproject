@@ -3,7 +3,7 @@ var year = date.getFullYear();
 var month = date.getMonth();
 var months = ["January", "February", "March", "April", "May", "June",
  "July", "August", "September", "October", "November", "December"];
-
+var days = ["pn","wt","sr","czw","pt","sb","ndz"];
 
 // ustawienie poczatkowego miesiaca i roku
 (function setMonth() {

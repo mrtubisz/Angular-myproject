@@ -1,0 +1,116 @@
+body{
+	background-image: url("../Kalendarz/pics/background.jpg");
+}
+
+
+
+#container
+{
+	width:auto;
+	
+
+}
+#panel
+{
+	background-color: white;
+	border: 1px solid silver;
+	width: 400px;
+	margin: 0 auto;
+	font: 16px calibri;
+	letter-spacing: -1px;
+	margin-top: 100px;
+	-webkit-box-shadow: 0 0 2px silver;
+	-moz-box-shadow: 0 0 2px silver;
+	box-shadow: 0 0 2px silver;
+	border-radius:3px;
+}
+
+#top
+{
+	float: right;
+	padding: 5px 5px;
+}
+
+#mid
+{
+	padding: 10px 5px;
+}
+
+form
+{
+	padding: 10px;
+
+}
+
+[type=username], [type=password]
+{
+	width: 360px;
+	border: 1px solid silver;
+	margin: 0 auto;
+	padding: 10px 5px;
+	border: 1px solid silver;
+	border-radius:3px;
+	display: block;
+
+
+}
+
+#back
+{
+	border-radius:3px;
+	width: 100%;
+	padding: 10px 0px;
+	text-shadow: 0 0 1px black;
+	position: relative;
+	background-color: rgb(179, 44, 26);
+    border: 1px solid white;
+    color: white;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	float:right;
+	padding:5px;
+
+}
+
+#back:hover{
+	background-color: rgb(168, 42, 25);
+    cursor: pointer;
+}
+
+[type=submit]
+{
+	border-radius:3px;
+	width: 100%;
+	padding: 10px 0px;
+	text-shadow: 0 0 1px black;
+	position: relative;
+	background-color: rgb(179, 44, 26);
+    border: 1px solid white;
+    color: white;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+
+}
+[type=submit]:hover{
+	background-color: rgb(168, 42, 25);
+    cursor: pointer;
+}
+
+#regis{
+	border-radius:3px;
+	width: 100%;
+	padding: 10px 0px;
+	text-shadow: 0 0 1px black;
+	position: relative;
+	background-color: rgb(179, 44, 26);
+    border: 1px solid white;
+    color: white;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	float:right;
+	padding:5px;
+}
+#regis:hover{
+	background-color: rgb(168, 42, 25);
+    cursor: pointer;
+}
